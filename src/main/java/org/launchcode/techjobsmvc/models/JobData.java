@@ -79,6 +79,7 @@ public class JobData {
         return jobs;
     }
 
+    //Gets the value for the chosen job at the chosen column
     public static String getFieldValue(Job job, String fieldName){
         String theValue;
         if (fieldName.equals("name")){
